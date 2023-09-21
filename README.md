@@ -35,8 +35,15 @@ Before you begin, ensure that you have the following prerequisites in place:
     - In the left-hand navigation pane, go to "BigQuery."
     - Click on the project name, then click "Create Dataset."
     - Provide a unique dataset name, choose the location, and click "Create Dataset."
-- **Loading Google Cloud Billing Data**
-    - XXXXXXXXXXXXXX TODO
+- **Enable and load Google Cloud Billing Data**
+    - Go to the Billing Export page
+    - Chose the Cloud Billing Account with the billing data
+    - On the Big Query export tab, click edit settings for the standard export.
+    - From the Projects list, select the projects that you setup to contain your BigQuery dataset
+    - From the Dataset ID field, select the dataset that you setup to contain the exported Cloud Billing Data.
+    - click Save
+
+For more detailed information, please refer to Google Docs at [export-data-bigquery-setup](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-setup)
 
 #### 4. Setting up a Service Account
 - **Creating a Service Account**
